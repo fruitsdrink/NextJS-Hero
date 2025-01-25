@@ -9,6 +9,10 @@ const links = [
     url: "/dashboard",
     title: "并行路由",
   },
+  {
+    url: "/intercepting-routes",
+    title: "拦截路由",
+  },
 ];
 export const Navigation: React.FC<React.ComponentProps<"ul">> = ({
   className,
