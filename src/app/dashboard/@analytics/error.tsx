@@ -1,7 +1,7 @@
-'use client'
+"use client";
 
-export default function Page(){
-    return (
-        <div>error</div>
-    )
+import { Error } from "@/components";
+
+export default function Page() {
+  return <Error />;
 }

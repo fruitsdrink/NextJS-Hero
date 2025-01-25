@@ -1,5 +1,5 @@
-export default function Page(){
-    return (
-        <div>loading</div>
-    )
+import { Loading } from "@/components";
+
+export default function Page() {
+  return <Loading />;
 }
