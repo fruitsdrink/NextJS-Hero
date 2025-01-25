@@ -8,9 +8,8 @@ interface Props {
     id: string;
   };
 }
-export default async function Page({ params }: Props) {
-  const { id } = await params;
-  const image = images.find((image) => image.id === parseInt(id));
+export default function Page({ params }: Props) {
+  const image = images.find((image) => image.id === parseInt(params.id));
 
   if (!image) {
     notFound();
