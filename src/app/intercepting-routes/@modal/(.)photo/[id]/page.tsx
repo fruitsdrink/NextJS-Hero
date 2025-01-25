@@ -4,11 +4,12 @@ import { notFound } from "next/navigation";
 import { ImageModal } from "./components";
 
 interface Props {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
-export default function Page({ params }: Props) {
+export default async function Page(props: Props) {
+  const params = await props.params;
   const image = images.find((image) => image.id === parseInt(params.id));
 
   if (!image) {

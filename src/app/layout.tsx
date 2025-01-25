@@ -28,9 +28,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <main className="container mx-auto">
+        <main className="container mx-auto min-h-screen grid grid-rows-[auto_1fr]">
           <Navigation className="my-4" />
-          {children}
+          <div>{children}</div>
         </main>
       </body>
     </html>
