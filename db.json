@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": "a8s342br",
+      "title": "post4",
+      "content": "content4"
+    },
+    {
+      "id": "oq88pa6q",
+      "title": "post3",
+      "content": "content3"
+    },
+    {
+      "id": "95f64528-e24c-4653-bb93-82a49750ae95",
+      "title": "post2",
+      "content": "content2"
+    },
+    {
+      "id": "88ea2e7e-13f8-41de-8a16-fa61d47759c2",
+      "title": "post1",
+      "content": "content1"
+    }
+  ]
+}

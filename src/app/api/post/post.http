@@ -1,0 +1,10 @@
+GET https://is8psm24-77d2opwe-35hhb08w735k.vcc4p.mcprev.cn/api/post HTTP/1.1
+
+###
+POST https://is8psm24-77d2opwe-35hhb08w735k.vcc4p.mcprev.cn/api/post HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
